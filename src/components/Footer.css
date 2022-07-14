@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
+    background-color: rgba(179, 178, 178, 0.548);
 }
 
 .footer-button {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 2.5rem;
 }
