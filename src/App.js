@@ -8,13 +8,14 @@ import Projects from './pages/Projects';
 
 function App() {
     return (
-      <div>
+      <div className="container">
         <Header />
         <Routes>
           <Route path="/" element={ <Home />} />
           <Route path="/about" element={ <About />} />
           <Route path="/projects" element={ <Projects />} />
         </Routes>
+        <Footer />
       </div>
   );
 }
