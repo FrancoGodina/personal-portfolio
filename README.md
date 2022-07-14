@@ -1,6 +1,6 @@
 # Portfolio
 
-[Projects section](images/projects.png)
+![Projects section](/src/images/projects.png)
 
 [Live Demo](https://francogodina.github.io/personal-portfolio/)
 
