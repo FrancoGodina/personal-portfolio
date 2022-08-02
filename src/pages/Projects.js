@@ -4,7 +4,7 @@ import pcbuilder from "../images/pcbuilder.png";
 import shoppingcart from "../images/shoppingcart.png";
 import memorygame from "../images/memorygame.png";
 import restaurantpage from "../images/restaurantpage.png";
-import etchasketch from "../images/etchasketch.png";
+import membersonly from "../images/members-only.png";
 import weatherapp from "../images/weatherapp.png"
 
 function Projects() {
@@ -14,6 +14,29 @@ function Projects() {
             <h1>My <span className="text-red">Projects</span></h1>
             </div>
             <div className="project-container">
+                <div className="project">
+                    <img src={membersonly} alt="Main page of the project" className="project-image"></img>
+                    <div className="information">
+                        <section className="title">Members only</section>
+                        <section className="description">
+                            This web app hosts an exclusive clubhouse where your members can write anonymous posts. Inside the clubhouse, members can see who the author of a post is. You can also become an admin and delete messages. The page renders different views based on what kind of user you are(normal user, member, admin). Passwords are encrypted using bcrypt.
+                            <br /><br />
+                            Back-End: Node.js/Express
+                            <br />
+                            Database: MongoDB
+                            <br />
+                            Front-End: Bootstrap 5, Pug.
+                        </section>
+                        <section className="project-button">
+                        <a className="livedemo" target="blank" href="https://pacific-shelf-41686.herokuapp.com/">
+                            Live demo <Icon icon="bi:laptop" inline={true} />
+                        </a>
+                        <a className="code" target="blank" href="https://github.com/FrancoGodina/members-only">
+                            Code <Icon icon="akar-icons:github-fill" inline={true} />
+                        </a>
+                        </section>
+                    </div>
+                </div>
                 <div className="project">
                     <img src={pcbuilder} alt="Main page of the project" className="project-image"></img>
                     <div className="information">
@@ -28,10 +51,10 @@ function Projects() {
                             Front-End: HTML, Bootstrap 5, Pug.
                         </section>
                         <section className="project-button">
-                        <a className="livedemo" href="https://infinite-temple-59082.herokuapp.com/catalog">
+                        <a className="livedemo" target="blank" href="https://infinite-temple-59082.herokuapp.com/catalog">
                             Live demo <Icon icon="bi:laptop" inline={true} />
                         </a>
-                        <a className="code" href="https://github.com/FrancoGodina/express-pc-builder">
+                        <a className="code" target="blank" href="https://github.com/FrancoGodina/express-pc-builder">
                             Code <Icon icon="akar-icons:github-fill" inline={true} />
                         </a>
                         </section>
@@ -47,10 +70,10 @@ function Projects() {
                             Front-End: HTML, CSS, JavaScript, React.js.
                         </section>
                         <section className="project-button">
-                        <a className="livedemo" href="https://francogodina.github.io/shopping-cart/">
+                        <a className="livedemo" target="blank" href="https://francogodina.github.io/shopping-cart/">
                             Live demo <Icon icon="bi:laptop" inline={true} />
                         </a>
-                        <a className="code" href="https://github.com/FrancoGodina/shopping-cart">
+                        <a className="code" target="blank" href="https://github.com/FrancoGodina/shopping-cart">
                             Code <Icon icon="akar-icons:github-fill" inline={true} />
                         </a>
                         </section>
@@ -66,10 +89,10 @@ function Projects() {
                             Front-End: HTML, CSS, JavaScript, React.js.
                         </section>
                         <section className="project-button">
-                        <a className="livedemo" href="https://francogodina.github.io/memory-game/">
+                        <a className="livedemo" target="blank" href="https://francogodina.github.io/memory-game/">
                             Live demo <Icon icon="bi:laptop" inline={true} />
                         </a>
-                        <a className="code" href="https://github.com/FrancoGodina/memory-game">
+                        <a className="code" target="blank" href="https://github.com/FrancoGodina/memory-game">
                             Code <Icon icon="akar-icons:github-fill" inline={true} />
                         </a>
                         </section>
@@ -87,10 +110,10 @@ function Projects() {
                             Front-End: HTML, CSS, JavaScript.
                         </section>
                         <section className="project-button">
-                        <a className="livedemo" href="https://francogodina.github.io/Weather-App/">
+                        <a className="livedemo" target="blank" href="https://francogodina.github.io/Weather-App/">
                             Live demo <Icon icon="bi:laptop" inline={true} />
                         </a>
-                        <a className="code" href="https://github.com/FrancoGodina/Weather-App">
+                        <a className="code" target="blank" href="https://github.com/FrancoGodina/Weather-App">
                             Code <Icon icon="akar-icons:github-fill" inline={true} />
                         </a>
                         </section>
@@ -106,29 +129,10 @@ function Projects() {
                             Front-End: HTML, CSS, JavaScript, Webpack.
                         </section>
                         <section className="project-button">
-                        <a className="livedemo" href="https://francogodina.github.io/Restaurant-Page/">
+                        <a className="livedemo" target="blank" href="https://francogodina.github.io/Restaurant-Page/">
                             Live demo <Icon icon="bi:laptop" inline={true} />
                         </a>
-                        <a className="code" href="https://github.com/FrancoGodina/Restaurant-Page">
-                            Code <Icon icon="akar-icons:github-fill" inline={true} />
-                        </a>
-                        </section>
-                    </div>
-                </div>
-                <div className="project">
-                    <img src={etchasketch} alt="Main page of the project" className="project-image"></img>
-                    <div className="information">
-                        <section className="title">Etch-a-Sketch</section>
-                        <section className="description">
-                            Inventory App that includes categories and items. Each of these include all of the CRUD Methods, so anybody that's visiting the site can Create, Read, Update or Delete any items or category.
-                            <br /><br />
-                            Front-End: HTML, CSS, JavaScript.
-                        </section>
-                        <section className="project-button">
-                        <a className="livedemo" href="https://francogodina.github.io/Etch-a-Sketch/">
-                            Live demo <Icon icon="bi:laptop" inline={true} />
-                        </a>
-                        <a className="code" href="https://github.com/FrancoGodina/Etch-a-Sketch">
+                        <a className="code" target="blank" href="https://github.com/FrancoGodina/Restaurant-Page">
                             Code <Icon icon="akar-icons:github-fill" inline={true} />
                         </a>
                         </section>
